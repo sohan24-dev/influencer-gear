@@ -207,6 +207,7 @@
   .companics-name {
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0px 40px;
   }
   .grid-container{
     grid-template-columns: 1fr;
@@ -223,5 +224,8 @@
 }
 .featured-img{
   width: 100%;
+}
+.card{
+  margin: 0px 15px;
 }
 }
