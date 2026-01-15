@@ -32,7 +32,7 @@
 }
 
 .btn {
-  background-color: #E02C6D;
+  background-color: #2D3C59;
   color: white;
   border-radius: 41px;
   padding: 10px 20px;
@@ -43,6 +43,12 @@
   /* text-align: center; */
   gap: 8px;
   font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover{
+  background-color: #161E54;
+  transform: scale(1.1);
 }
 
 /* main style  */
@@ -114,7 +120,6 @@
   justify-items: center;
   gap: 30px;
 }
-
 .card-img {
   width: 100%;
 }
@@ -128,11 +133,16 @@
 .p-tag {
   font-size: 24px;
 }
+.item:hover{
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
 
 .item {
   padding: 16px 15px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .box-star i {
@@ -186,7 +196,6 @@
   }
 
   .header-btn {
-    display: block;
     margin: 0 auto;
   }
 
@@ -209,5 +218,10 @@
   }
 .menu-navber{
   gap: 15px;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+.featured-img{
+  width: 100%;
 }
 }
